@@ -25,6 +25,7 @@ on post-fs
 
     # Set supported opengles version - OpenGLES 2
     setprop ro.opengles.version 131072
+    setprop ro.sf.lcd_density 160
 
     # update cpuset now that processors are up
     # Foreground should contain all cores

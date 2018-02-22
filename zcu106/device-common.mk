@@ -47,5 +47,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	libion
 
+PRODUCT_PACKAGES += \
+	hwcomposer
+
 # Include libs for SW graphics
 PRODUCT_PACKAGES += libGLES_android

@@ -42,6 +42,8 @@ BOARD_USES_GENERIC_AUDIO := true
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
+TARGET_USES_HWC2 := true
+
 # We are not using standard boot.img in
 # the booting process for now. Kernel is
 # built and used in a custom way.
